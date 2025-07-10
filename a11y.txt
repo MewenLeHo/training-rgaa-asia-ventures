@@ -1,0 +1,51 @@
+**AsiaVentures - Erreurs d'accessibilité par thématique RGAA :**
+
+Images :
+- Photos de destinations sans alternatives textuelles
+- Icônes de services sans description
+- Images décoratives non ignorées par les lecteurs d'écran
+
+Navigation :
+- Absence de skip links
+- Menu de navigation non structuré
+- Fil d'Ariane manquant
+- Absence de plan du site
+
+Couleurs et contrastes :
+- Textes blancs sur images sans contraste suffisant
+- Liens non différenciés autrement que par la couleur
+- Contraste insuffisant sur les boutons de réservation
+
+Formulaires :
+- Formulaire de recherche sans labels explicites
+- Champs de réservation sans étiquettes associées
+- Messages d'erreur non identifiés
+- Absence de validation accessible
+
+Structure :
+- Hiérarchie des titres non respectée
+- Absence de landmarks ARIA
+- Sections de contenu sans en-têtes
+- Listes non structurées correctement
+
+Multimédia :
+- Diaporama sans contrôles d'accessibilité
+- Absence de pause possible
+- Vidéos sans sous-titres ni transcription
+
+Scripts :
+- Calendrier de réservation non accessible au clavier
+- Popups non conformes ARIA
+- Contenu dynamique non annoncé
+- Filtres de recherche non accessibles
+
+Présentation :
+- Mise en page non adaptable
+- Textes non redimensionnables
+- Espacement des lignes insuffisant
+- Information transmise uniquement par la couleur
+
+Consultation :
+- Focus non visible sur les éléments interactifs
+- Ordre de lecture illogique
+- Absence de raccourcis clavier
