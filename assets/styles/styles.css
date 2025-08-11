@@ -164,17 +164,36 @@ body {
 .testimonials {
   background-color: #f9f9f9;
   padding: 50px 20px;
+  text-align: center;
 }
 
+/* Conteneur de défilement */
+.testimonial-slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* La ligne de témoignages en flex horizontal, en boucle infinie */
 .testimonial-slider {
   display: flex;
-  overflow: hidden;
-  margin: 30px auto;
-  max-width: 1200px;
+  width: max-content;
+  animation: scroll 20s linear infinite;
 }
 
+/* Animation pour défilement automatique */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Chaque témoignage, en largeur fixe */
 .testimonial-card {
-  flex: 0 0 33.33%;
+  flex: 0 0 10%;
   padding: 20px;
   background: white;
   margin: 10px;
@@ -182,6 +201,7 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Styles pour le contenu et l'auteur */
 .testimonial-content {
   font-style: italic;
   color: #666;
