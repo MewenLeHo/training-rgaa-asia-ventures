@@ -51,5 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // document.getElementById("nextBtn").addEventListener("click", moveNext);
   // document.getElementById("prevBtn").addEventListener("click", movePrev);
 
-  setInterval(moveNext, 3000);
+  // setInterval(moveNext, 3000);
+  setInterval(3000);
 });
