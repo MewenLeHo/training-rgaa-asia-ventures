@@ -295,9 +295,12 @@ body {
   margin-top: 20px;
 }
 
+.social-links button {
+  padding: 0;
+}
+
 .social-links img {
   width: 30px;
-  margin-right: 10px;
 }
 
 /* Utilitaires */
