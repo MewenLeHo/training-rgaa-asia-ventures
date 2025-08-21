@@ -1,5 +1,15 @@
-.navbar {
+.nav-link:hover {
+  color: #e87168;
+}
+
+.navbar,
+.navbar .dropdown .dropdown-menu {
   background-color: #14505C;
+}
+
+.dropdown-item:focus[data-focus-visible-added] {
+  outline: none;
+  box-shadow: none;
 }
 
 .btn-reserver {
@@ -33,7 +43,7 @@
   font-size: 24px;
 }
 
-.card  {
+.card {
   border: none;
   border-radius: 8px;
   overflow: hidden;
@@ -84,6 +94,11 @@ form .btn {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+footer form .btn {
+  background-color: #fff;
+  color: #14505C;
 }
 
 .countries a {
