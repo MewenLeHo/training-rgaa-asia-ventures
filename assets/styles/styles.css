@@ -98,11 +98,16 @@ form .btn {
 }
 
 footer form .btn {
-  background-color: #fff;
-  color: #14505C;
+background-color: #fff;
+color: #14505C;
+}
+
+.form-check-input:checked {
+  background-color: #14505C;
+  border-color: #14505C;
 }
 
 .countries a {
-  text-decoration: none;
-  color: #CB3434;
+    text-decoration: none;
+    color: #CB3434;
 }
